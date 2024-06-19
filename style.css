@@ -1,0 +1,11 @@
+
+ p{
+    color: black;
+    background-color: rgb(211, 142, 121);
+  }
+  section{
+    color: black;
+    border: 1px blueviolet solid;
+    margin: 20px;
+    padding: 5px;
+  }
