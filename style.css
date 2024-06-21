@@ -1,11 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 70px;
+  background-color: #F7F9FB; /* Color de fondo más claro y elegante */
+  color: #333333; /* Texto en un gris oscuro elegante */
+}
 
- p{
-    color: black;
-    background-color: rgb(211, 142, 121);
-  }
-  section{
-    color: black;
-    border: 1px blueviolet solid;
-    margin: 20px;
-    padding: 5px;
-  }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  color: #2C3E50; /* Color de texto del menú en un azul oscuro */
+}
+
+.menu-item:hover {
+  background-color: #E74C3C; /* Color de fondo en hover en un rojo elegante */
+  color: #FFFFFF; /* Texto blanco en hover */
+  transition: all 0.45s ease-in-out;
+}
+
+header {
+  background-color: #34495E; /* Azul oscuro elegante */
+  color: #FFFFFF; /* Texto blanco */
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 20px;
+  border: 1px solid #D5D8DC; /* Borde gris claro */
+  margin-bottom: 20px;
+}
+
+#acerca_de_mi {
+  text-align: justify;
+}
+
+#habilidades ul {
+  list-style: none;
+  padding: 0;
+}
+
+#habilidades ul li {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #BDC3C7; /* Borde gris medio */
+  margin-right: 10px;
+}
+
+#experiencia ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#experiencia ul li {
+  margin-bottom: 10px;
+}
+
+#proyectos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#proyectos ul li {
+  text-decoration: none;
+  color: #34495E; /* Texto en azul oscuro */
+}
+
+#proyectos ul li a:hover {
+  text-decoration: underline;
+  color: #E74C3C; /* Texto en rojo en hover */
+}
+
+#sociales {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#sociales li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.fa {
+  color: #34495E; /* Íconos en azul oscuro */
+  text-decoration: none;
+  margin-left: 0px;
+}

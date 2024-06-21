@@ -2,28 +2,30 @@
 <html>
     <head> <!--la cabeza del codigo-->
         <title>Porfolio web</title> <!--titulo de la paguina web-->
-        <link rel="stylesheet" href="style.css"
-        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     </head>
     <body> <!--el cuerpo del codigo-->
         <header>
-            <!--en esta section donde van los acortadores y nombre-->
+            <!--barra superior de navegacion-->
             <nav>
                 <lu>
-                    <a href="#acerca_de_mi">acerca de mi</a>
-                    <a href="#habilidades">habilidades</a>
-                    <a href="#experiencia">experiencia</a>
-                    <a href="#proyectos">proyectos</a>
-                    <a href="#contactos">contactos</a>
+                    <a class="menu-item" href="#acerca_de_mi">acerca de mi</a>
+                    <a class="menu-item" href="#habilidades">habilidades</a>
+                    <a class="menu-item" href="#experiencia">experiencia</a>
+                    <a class="menu-item" href="#proyectos">proyectos</a>
+                    <a class="menu-item" href="#contactos">contactos</a>
                 </lu>
             </nav>
+            <!--img es para poner una imagen , recuerda buscar en internet el enlace propio de la imagen-->
             <img src="https://scontent.fagt2-1.fna.fbcdn.net/v/t39.30808-1/301972558_114520458039407_7404159357572556822_n.jpg?stp=dst-jpg_p200x200&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4OhaqM_jSsIQ7kNvgFCE9bb&_nc_ht=scontent.fagt2-1.fna&oh=00_AYCBHfpokUfg1MwiEiyC5bZ1hMCKbRonxvynzlkTHB25Qg&oe=6678FA83">  
             <h1>Denis quiroga</h1> 
             <h2>Mi porfolio</h2>
         </header>
         <main>
             <!--secciones-->
-            <section id="acerca_de_mi"> 
+            <section id="acerca_de_mi"> <!--seccion de info personal-->
                 <h2>acerca de mi</h2>
                 <p> Como desarrollador web junior, fusiono mi pasión por el diseño y la
                     programación para crear experiencias web excepcionales. Me esfuerzo por
@@ -34,7 +36,7 @@
                     desarrollo web.
                 </p>
             </section>
-            <section id="habilidades">
+            <section id="habilidades"> <!--seccion de habilidades-->
                 <h2>habilidades</h2>
                 <ul>
                     <li>HTML</li>
@@ -42,7 +44,7 @@
                     <li>JavaScript</li>
                 </ul>
             </section>
-            <section id="experiencia">
+            <section id="experiencia"> <!--seccion de experiencias-->
                 <h2>experiencia</h2>
                 <ul>
                     <li>empresa x</li>
@@ -57,7 +59,7 @@
                     </ul>
                 </ul>
             </section>
-            <section id="proyectos"> 
+            <section id="proyectos"> <!--seccion de proyectos-->
                 <h2>proyectos</h2>
                 <ul>
                     <li>
@@ -68,18 +70,18 @@
                     </li>
                 </ul>
             </section>
-            <section id="contactos">
+            <section id="contactos"> <!--seccion de contactos-->
                 <h2>contactos</h2>
                 <ol>
                     <li>Email: quirogadenis686@gmail.com</li>
                     <li>Telefono: 0995605309</li>
-                    <li>Redes sociales:</li>
-                    <lu>
+                    <li>Redes sociales:</li> <!--lista de redes sociales mias-->
+                    <lu id="sociales"> <!--nav de sociales-->
                         <li>
-                            <a href="https://www.facebook.com/Denis_Quiroga">Facebook</a>
+                            <a href="https://www.facebook.com/Denis_Quiroga" class="fa fa-facebook"></a>
                         </li>
                         <li>
-                            <a href="https://instagram.com/4wa_de_coc0">Instagram</a>
+                            <a href="https://instagram.com/4wa_de_coc0" class="fa fa-instagram"></a>
                         </li>
                     </lu>
                 </ol>
